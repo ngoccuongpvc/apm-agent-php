@@ -74,6 +74,8 @@ ResultCode sendEventsToApmServer( double serverTimeoutMilliseconds, const Config
         return resultFailure;
     }
 
+    close(fd)
+
     return resultSuccess;
 
     // long serverTimeoutMillisecondsLong = (long) ceil( serverTimeoutMilliseconds );
